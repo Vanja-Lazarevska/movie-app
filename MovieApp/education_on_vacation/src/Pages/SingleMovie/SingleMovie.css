@@ -1,0 +1,66 @@
+
+.titleRating {
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.imagesForMovie{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    margin-top: 3%;
+    
+}
+
+.contentBox{
+    display: inline-block;
+    text-align:justify;
+}
+
+.box:hover{
+    width: fit-content;
+    background-color: rgba(217, 192, 192, 0.329);
+    border-radius: 20%;
+    
+}
+
+.movieDescription{
+    display: flex;
+    width: 80vw;
+    height: fit-content;
+    margin: 5%;
+    align-items: center;
+
+}
+
+.movieGenre{
+    margin-left: 15%;
+}
+.btnGenre{
+    background-color: rgba(240, 136, 172, 0);
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+}
+.btnGenre:hover {
+    background-color: rgba(140, 140, 212, 0.329);
+    border-radius: 20%;
+
+}
+
+.production{
+    width: 100%;
+    position: relative;
+    top: 30%;
+    padding: 4%;
+    box-shadow: 0px 6px 6px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    
+}
+
+
+
+
+
+

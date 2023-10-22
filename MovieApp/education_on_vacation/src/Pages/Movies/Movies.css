@@ -1,0 +1,29 @@
+.genreName{
+    margin: 2%;
+    font-size:x-large;
+    width: fit-content;
+    border-bottom: 3px solid rgba(78, 32, 55, 0.749);
+}
+
+
+.allGenres{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 5%;
+
+}
+.genreBtn{
+    display: inline;
+    border-radius: 50px;
+    margin-top: 1%;
+    font-weight: bolder;
+}
+
+.genreBtn:hover {
+    background-color: rgba(128, 0, 128, 0.184);
+    cursor: pointer;
+}
+
+
+

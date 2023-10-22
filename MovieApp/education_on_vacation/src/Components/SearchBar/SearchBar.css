@@ -1,0 +1,16 @@
+.containerForSearch{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 10px;
+}
+
+.searchClose{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
